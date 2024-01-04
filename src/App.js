@@ -10,7 +10,6 @@ import "./styles.css";
 
   //input box with an add button
   //manage input with useState
-  //manage the click with useState ??
   //when clicked, display below in ordered list format
   //remove button to delete list items <button onClick{() => remove(id)}>
   //
