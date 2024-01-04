@@ -26,7 +26,7 @@ export default function App() {
 
   function Added (){
       setCities([...cities, inputValue]) //wtf this was so confusing. originally, i did setCities(inputValue), so when you mapped over it down below, you set cities to a string value instead of an array. 
-      //...prevCities is taking all the existing cities from the prevCities array and then, along with inputValue, it creates a new array with all the previous cities plus the new inputValue
+      //the line above shows setCities being used to create a new state of the cities array with a copy of the original list and the new input value 
       console.log ('added')
   }
 
